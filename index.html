@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>faizan`s portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/15272f9b87.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p><span class="purple">"Welcome to my website"</span></p>
+                <h1>Hi, I`m <span>Faizan Anwar Khan</span></h1>
+                <h4>and I am <span class="sky-blue"><i>Full Stack Web-Developer</i></span></h4>
+                <i>
+                <h5>Web-Designer</h5>
+                <h5>and UI/UX Designer..</h5>
+                <div></i>
+                    <h4>
+                        <br><span id="element"></span>
+                    </h4>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!--about--->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="profile">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p></p>I'm a dedicated MCA student at Aligarh Muslim University located in Aligarh, Uttar Pradesh, India,
+                    deeply enthusiastic about technology. My journey has led me through diverse realms, including web
+                    development, web design, UI/UX design, machine learning, and data analysis.
+                    <br>
+                    With a firm belief in the transformative power of technology, I am always on the lookout for new
+                    challenges and innovative solutions. I thrive on crafting user-centric designs and harnessing the
+                    potential of data-driven insights.
+                    <br>
+                    I'm actively seeking opportunities to apply my expertise to exciting projects. Whether it's creating
+                    intuitive websites, pushing the boundaries of machine learning, or revealing hidden patterns in
+                    data, I'm ready to dive in.
+                    <br>
+                    Let's embark on a collaborative journey where we can turn ideas into tangible tech solutions. Feel
+                    free to reach out and let's make innovation happen together!
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contains active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Builing website and web applications </li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                            <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contains" id="experience">
+                        <ul>
+                            <li><span>15-March : current</span><br>Competitive Programming, Intern at CSS-AMU</li>
+                            <li><span>10-Jan : 5-March</span><br>Web-Development, Trainee at Coding Ninjas</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contains" id="education">
+                        <ul>
+                            <li><span>2022 - current</span><br>Master of Computer Science and Applications</li>
+                            <li><span>2019 - 2022</span><br>BS (Hons) Physics</li>
+                            <li><span>2017 - 2019</span><br>SSSC(10+2) PCM</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------services-------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Our web development services encompass everything from front-end design to back-end functionality, delivering tailor-made solutions.</p>
+                    <a href="services.html"><span>Learn more</span></a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>We create custom web designs that not only impress visitors but also enhance user engagement and drive conversions.</p>
+                    <a href="services.html"><span>Learn more</span></a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Development</h2>
+                    <p>Our app development team transforms your ideas into reality, building sleek and feature-rich mobile applications for iOS and Android platforms</p>
+                    <a href="services.html"><span>Learn more</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------portfolio------>
+    <div id="portfolio">
+        <div class="container">
+            <div class="sub-title">My Work</div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="1">
+                    <div class="layer">
+                        <h3>Blogging Website</h3>
+                        <p>Discover our portfolio of Blogging Website projects, showcasing our commitment to delivering engaging, informative, and beautifully crafted online spaces for bloggers and readers alike</p>
+                        <a href="project.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="2">
+                    <div class="layer">
+                        <h3>E-learning portal</h3>
+                        <p>Explore our featured projects, and discover how our E-learning solutions have revolutionized digital education, making learning accessible anytime, anywhere.</p>
+                        <a href="project.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="3">
+                    <div class="layer">
+                        <h3>E-Shopping app</h3>
+                        <p>Our E-Shopping app revolutionizes the way consumers shop online, offering a seamless and secure platform for discovering and purchasing a wide range of products</p>
+                        <a href="project.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!---------------contact--------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>gl6100@myamu.ac.in</p>
+                    <p><i class="fa-solid fa-phone"></i>9161360931</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/faizan-anwar-khan-3ba2b125a"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://wa.me/qr/QHRLJBVFDL4VA1"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://github.com/Faizan6100-amu?tab=stars"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="E-mail" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn bt2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Faizan@Khan <i class="fa-regular fa-copyright"></i> copyright. All right reserved.</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontains = document.getElementsByClassName("tab-contains");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontain of tabcontains) {
+                tabcontain.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var smenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            smenu.style.right = "0";
+        }
+        function closemenu() {
+            smenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzmBGkGUHoe6vsBOIt4bqkL3CQJxYMo_aDxnnNNFSVqBjoRezUBjNBNCNrIr6B5VkI/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const mag = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        mag.innerHTML = ""
+                    }, 3000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<!-- Setup and start animation! -->
+<script>
+    var typed = new Typed('#element',{
+        strings: ['Services Provided by me:','Web Development', 'Web Designing', 'Android Development', 'UI/UX Design','and many more.'],
+        typeSpeed: 50,});
+</script>
+</body>
+
+</html>
